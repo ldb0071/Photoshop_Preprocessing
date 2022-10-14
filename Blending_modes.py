@@ -19,7 +19,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image lighten mode
     def lighten(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -27,7 +27,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image diffusion mode
     def diffusion(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -35,7 +35,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image overlay mode
     def overlay(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -43,7 +43,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image soft_light mode
     def soft_light(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -51,7 +51,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image hard_light mode
     def hard_light(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -59,7 +59,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image color_dodge mode
     def color_dodge(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -67,7 +67,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image linear_burn mode
     def linear_burn(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -75,7 +75,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image color_burn mode
     def color_burn(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -83,7 +83,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image linear_dodge mode
     def linear_dodge(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -91,16 +91,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-  
-    # Image multiply mode
-    def linear_light(self,image_1,image_2):
-        image_1=image_1/255
-        image_2=image_2/255
-        image_3=image_1+image_2-1
-        image_3=image_3*255
-        return image_3
-    
-    # Image multiply mode
+    # Image vivid_light mode
     def vivid_light(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -108,7 +99,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image pin_light mode
     def pin_light(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -116,7 +107,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image hard_mix mode
     def hard_mix(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -124,7 +115,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image difference mode
     def difference(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -132,7 +123,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image exclusion mode
     def exclusion(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -140,7 +131,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image subtract mode
     def subtract(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -148,7 +139,7 @@ class blending_mode():
         image_3=image_3*255
         return image_3
     
-    # Image multiply mode
+    # Image divide mode
     def divide(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
@@ -157,7 +148,7 @@ class blending_mode():
         return image_3
     
     
-    # Image multiply mode
+    # Image screen mode
     def screen(self,image_1,image_2):
         image_1=image_1/255
         image_2=image_2/255
