@@ -2,11 +2,9 @@ import cv2 as cv2
 import numpy as np 
 import matplotlib.pyplot as plt
 
-
 ############################################################################# Bluring Effect ####################################################################################################################################
-
-
 #create a class that contains all bluring effects 
+
 class bluring_effects:
     def __init__(self):
         pass
@@ -66,6 +64,7 @@ class bluring_effects:
         radial_filter[int((size-1)/2),int((size-1)/2)] = 1
         image = cv2.filter2D(image,-1,radial_filter)
         return image
+    
     
 ############################################################################# MAIN ############################################################################################################################################   
 #CREATE A  MAIN FUNCTION THAT CONTAINS THE APPLICATION OF THE BLURING EFFECTS AND THE  DISPLAY OF THE RESULTS USING MATPLOTLIB PLT  SUBPLOT
