@@ -124,6 +124,20 @@ class color_channel():
         #convert the image to RGB 
         image_copy = cv2.cvtColor(image_copy,cv2.COLOR_HSV2RGB)
         return image_copy
+    
+    
+     #A function that apply a color balance effect 
+    def color_balance(self,image,red,green,blue):
+        #create a color balance effect 
+        red = np.clip(red,-100,100)
+        green = np.clip(green,-100,100)
+        blue = np.clip(blue,-100,100)
+        red = red/100
+        green = green/100
+        blue = blue/100
+        image = cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
+        image[:,:,0] = image[:,:,0]*blue
+        return image
 
 
 ############################################################################# MAIN ####################################################################################################################################
