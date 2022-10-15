@@ -3,13 +3,10 @@ import numpy as np
 
 ###################################################################################### COLOR_CHANNELS ###########################################################################################################################
 
-
 class color_channel():
-    
     
     def __init__(self):
        pass
-   
    
     #A function that create solid color images
     def create_solid_color_image(width,height,rgb):
