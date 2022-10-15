@@ -93,7 +93,6 @@ class color_channel():
             print('please enter a valid representation')
             
 
-
     #A function that change channels values in an image and return the image
     def change_channels_values(self,image,channels_values):
         
@@ -105,7 +104,6 @@ class color_channel():
         for i in range(3):
             image_copy[:,:,i] = channels_values[i]
         return image_copy
-
 
 
     #A function that change image hue and saturation  and return the image
@@ -137,7 +135,6 @@ class color_channel():
         return image
     
     
-
 
 ############################################################################# MAIN ####################################################################################################################################
 # apply the transformation to an image and display the image.
