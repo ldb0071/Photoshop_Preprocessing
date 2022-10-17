@@ -4,15 +4,11 @@
 The idea is to make a photoshop effect using python and openCV to make the process faster and easier, just like in photoshop.and to make the preprocessing process for beginners easier and more effective.
 
 ## requirements
-'''bash
+```bash 
 pip install opencv-python
-'''
-'''bash
 pip install numpy
-'''
-'''bash
 pip install matplotlib
-'''
+```
 ## included effects
 currently there are 4 effects included in the project
 1. blending mode
