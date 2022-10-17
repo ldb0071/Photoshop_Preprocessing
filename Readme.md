@@ -6,10 +6,13 @@ The idea is to make a photoshop effect using python and openCV to make the proce
 ## requirements
 '''bash
 pip install opencv-python
+'''
+'''bash
 pip install numpy
+'''
+'''bash
 pip install matplotlib
 '''
-
 ## included effects
 currently there are 4 effects included in the project
 1. blending mode
